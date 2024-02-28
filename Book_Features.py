@@ -15,12 +15,7 @@ class Book:
 
     def __del__(self):
         print("A book is destroyed")
-        
+
 
 print(Book("Crime and Punishment", "Fyodor Dostoevsky", 560))
-
-
-
-
-
 
